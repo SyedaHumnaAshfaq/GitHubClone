@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    
+</head>
+
+<body>
+    <div class="topdivision">
+        <div class="leftdiv">
+            <button class="menubtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <img src="data:image/png;base64,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"
+                alt="">
+            <div id="visitprofile"><a href="#">SyedaHumnaAshfaq</a></div>
+        </div>
+        <div class="rightdiv">
+            <div class="inputicons">
+            <i class="fa-solid fa-magnifying-glass" id="searchicon"></i>
+            <input type="text" placeholder="Type / to search">
+            <i class="fa-solid fa-terminal" id="commandpalette"></i>
+            </div>
+            <div class="twoicons">
+            <i class="fa-solid fa-plus" id="plus"></i>
+            <i class="fa-solid fa-caret-down" id="dropdown"></i>
+            </div>
+            <i class="fa-solid fa-circle-dot" id="issues"></i>
+            <i class="fa-solid fa-code-pull-request" id="pullrequest"></i>
+            <i class="fa-regular fa-envelope" id="notifications"></i>
+            <img src="https://avatars.githubusercontent.com/u/126508941?v=4" alt="">
+            <!-- <p>|</p> -->
+            <!-- <div id="commandpalette"> -->
+            <!-- <i class="fa-solid fa-terminal" id="commandpalette" ></i> -->
+            <!-- </div> -->
+        </div>
+    </div>
+    <script src="scriptingfile.js"></script>
+</body>
+
+</html>

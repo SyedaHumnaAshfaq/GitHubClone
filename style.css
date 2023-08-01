@@ -1,0 +1,226 @@
+body{
+    background-color: black;
+}
+.menubtn{
+    background-color: black;
+    border: 1px solid rgb(34, 33, 33);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    width: 32px;
+    height: 32px;
+    padding: 4px;
+    margin: 2px;
+    
+}
+.menubtn:hover{
+    border: 1px solid rgb(226, 216, 216);
+    cursor: pointer;
+}
+
+.leftdiv img{
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+.leftdiv img:hover{
+    cursor: pointer;
+    /* opacity: 0.8; */
+}
+.leftdiv a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2px;
+    margin-left: 5px;
+}
+
+.topdivision{
+    display: flex;
+    flex-direction: row;
+}
+.leftdiv{
+    padding: 3px;
+    margin: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 55%;
+    /* background-color: red; */
+
+}
+.rightdiv{
+    padding: 3px;
+    margin: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 45%;
+    position: relative;
+    justify-content: center;
+    /*to add the search icon inside the input we */
+    /* need to change the position of the main division to  */
+    /* relative and the position of the i tag containing the icon to be absolute */
+    /* background-color: red; */ 
+}
+.inputicons{
+    width: 60%;
+    border: 1px solid rgb(34, 33, 33);
+    background-color: black;
+    color: grey;
+    height: 60%;
+    border-radius: 4px;
+    /* padding-left: 30px; */
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.inputicons input{
+    width: 150%;
+    /* border: 1px solid rgb(34, 33, 33); */
+    background-color: black;
+    color: grey;
+    height: 60%;
+    border: none;
+
+    /* border-radius: 4px; */
+    /* padding-left: 30px; */
+    cursor: pointer;
+    text-decoration: none;
+}
+#searchicon{
+    
+    color: grey;
+    position: left;
+    padding: 7px;
+    /* position: absolute; to add the search icon inside the input */
+    /* left: 10px;  */
+    /* top: 37%; */
+    width: 30%;
+}
+#commandpalette{
+    color: grey;
+    width: 10%;
+    padding: 3px;
+    /* background-color: aquamarine; */
+    /* padding: 5px; */
+    position: right;
+     /* to add the search icon inside the input */
+    /* left: 340px;  */
+    /* top: 37%; */
+}
+#commandpalette:hover{
+    background-color: rgb(49, 44, 44);
+    border-radius: 4px;
+    /* padding: 5px; */
+    cursor: pointer;
+   
+}
+.rightdiv p{
+    color: grey;
+    font-size: 12px;
+    /* margin-left: 5px; */
+    left: 390px;
+    position:absolute;
+}
+
+#visitprofile{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    height: 40px;
+    /* z-index: -1; */
+}
+#visitprofile:hover{
+    background-color: rgb(49, 44, 44);
+    cursor: pointer;
+    
+}
+.menubtn span{
+    color: grey;
+    width: 12px;
+    margin: 2px;
+    border: 1px solid grey;
+    
+    
+}
+@media only screen and (max-width:914px){
+    .inputicons{
+        border: none;
+        padding: 7px;
+        /* margin: 3px; */
+        /* height: 60%; */
+        width: 50px;
+        /* align-items: flex-end; */
+        justify-content: flex-end;
+    
+        }
+    .inputicons input{
+       
+        display: none;
+        
+    }
+    #commandpalette{
+        display: none;
+    }
+    .rightdiv{
+        justify-content: flex-end;
+    }
+    #searchicon{
+        /* left:25%; */
+        /* display: flex; */
+        border: 1px solid rgb(34, 33, 33);
+        padding: 7px;
+        border-radius: 4px;
+        margin: 3px;
+        right: 0px;
+        /* top: 30%; */
+    }
+}
+#plus, #dropdown,#issues,#pullrequest,#notifications{
+    color: grey;
+    padding: 5px;
+    margin: 3px;
+    /* height: 60%; */
+    /* border: 1px solid grey;
+    border-radius: 4px; */
+
+}
+#issues,#pullrequest,#notifications{
+    border: 1px solid rgb(34, 33, 33);
+    border-radius: 4px;
+    padding: 7px;
+    margin: 3px;
+    /* height:60%; */
+    
+}
+.twoicons{
+    border: 1px solid rgb(34, 33, 33);
+    border-radius: 4px;
+    height:55%;
+    margin: 5px;
+    /* padding: 1px; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.rightdiv img{
+    height: 60%;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+@media only screen and (max-width:1012px) {
+
+}

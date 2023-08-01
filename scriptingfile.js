@@ -1,0 +1,9 @@
+// document.querySelector("#issues").style.border="1px solid  rgb(34, 33, 33)";
+// document.querySelector("#issues").style.borderRadius="4px";
+// document.querySelector("#issues").style.height="40%";
+// document.querySelector("#issues").style.margin="3px";
+// document.querySelector("#issues").style.top="30px";
+// document.querySelector("#issues").style.display="flex";
+// document.querySelector("#issues").style.justifyContent="center";
+// document.querySelector("#issues").style.alignItems="center";
+// document.querySelector("#issues").style.padding="5px";
